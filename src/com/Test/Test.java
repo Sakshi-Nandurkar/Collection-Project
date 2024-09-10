@@ -40,12 +40,6 @@ public class Test {
 		System.out.println();
 		
 		
-		System.out.println("************************ Descending *************************");
-		List<Student> db5 =sc.getStudentRollnoDescending();
-		System.out.println(db5);
-		System.out.println();
-		
-		
 		System.out.println("************************ All Students Starts with anyLetter **************************");
 		List<Student> db6 =sc.getStudentNameStartsWithAnything();
 		System.out.println(db6);
